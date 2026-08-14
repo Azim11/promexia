@@ -55,8 +55,8 @@ const contactInfo = {
     "https://www.google.com/maps?q=2661+Alvarado+Street+San+Leandro+CA+94577&output=embed",
 
   social: {
-    telegram: "https://t.me/marketingco2",
-    whatsapp: "https://whatsapp.com/channel/0029VbE2hxSJZg3zc0OTVu1H",
+    telegram: "https://t.me/westlinedigital",
+    whatsapp: "https://whatsapp.com/channel/0029VbDaT2E6RGJP2NRORo1Q",
   },
 };
 
