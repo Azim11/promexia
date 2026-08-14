@@ -76,7 +76,7 @@ export default function Navbar() {
             <div className="hidden md:flex items-center gap-3">
               <Link
                 to="/contact-us"
-                className="group flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-bold text-sm shadow-glow hover:shadow-[0_8px_25px_rgba(225,29,72,0.45)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+                className="group flex items-center gap-2 px-5 py-2.5 rounded-xl bg-primary text-white font-bold text-sm shadow-glow hover:shadow-[0_8px_25px_rgba(5,150,105,0.45)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               >
                 Get Started
                 <ArrowRight size={14} className="group-hover:translate-x-0.5 transition-transform duration-200" />

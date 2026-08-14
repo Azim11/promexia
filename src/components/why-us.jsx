@@ -15,7 +15,7 @@ export default function WhyUsSection() {
   return (
     <section className="py-28 bg-white relative overflow-hidden">
       <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(225,29,72,0.04)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(5,150,105,0.04)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">
 
@@ -103,7 +103,7 @@ export default function WhyUsSection() {
           </div>
           <Link
             to="/contact-us"
-            className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-bold text-sm text-white bg-primary whitespace-nowrap transition-all duration-300 hover:scale-[1.02] shadow-glow hover:shadow-[0_12px_35px_rgba(225,29,72,0.5)]"
+            className="flex items-center gap-2 px-7 py-3.5 rounded-2xl font-bold text-sm text-white bg-primary whitespace-nowrap transition-all duration-300 hover:scale-[1.02] shadow-glow hover:shadow-[0_12px_35px_rgba(5,150,105,0.5)]"
           >
             Start Your Journey
             <ArrowRight size={15} />

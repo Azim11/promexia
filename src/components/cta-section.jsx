@@ -38,7 +38,7 @@ export default function CTASection() {
         <div className="relative rounded-[2.5rem] overflow-hidden bg-gradient-to-br from-primary/6 via-secondary/60 to-amber-50/50 border border-primary/15 shadow-card">
 
           {/* Background decorations */}
-          <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(225,29,72,0.12)_0%,transparent_70%)] pointer-events-none" />
+          <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(5,150,105,0.12)_0%,transparent_70%)] pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-[300px] h-[300px] bg-[radial-gradient(circle,rgba(217,119,6,0.07)_0%,transparent_70%)] pointer-events-none" />
 
           <div className="grid lg:grid-cols-2 gap-0">
@@ -71,7 +71,7 @@ export default function CTASection() {
               <div className="flex flex-col sm:flex-row gap-3">
                 <Link
                   to="/contact-us"
-                  className="group flex items-center justify-center gap-2 px-7 py-4 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_12px_35px_rgba(225,29,72,0.5)]"
+                  className="group flex items-center justify-center gap-2 px-7 py-4 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow transition-all duration-300 hover:scale-[1.02] hover:shadow-[0_12px_35px_rgba(5,150,105,0.5)]"
                 >
                   Get Started Today
                   <ArrowRight size={15} className="group-hover:translate-x-0.5 transition-transform duration-200" />

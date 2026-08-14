@@ -52,7 +52,7 @@ export default function Careers() {
       {/* Culture Section */}
       <section className="py-24 relative overflow-hidden bg-background">
         <div className="absolute inset-0 dot-pattern opacity-40 pointer-events-none" />
-        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(225,29,72,0.06)_0%,transparent_70%)] pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(5,150,105,0.06)_0%,transparent_70%)] pointer-events-none" />
 
         <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">

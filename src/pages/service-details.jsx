@@ -41,7 +41,7 @@ export default function ServiceDetails() {
       {/* Hero */}
       <section className="relative pt-32 pb-24 lg:pt-44 lg:pb-28 overflow-hidden bg-background">
         <div className="absolute inset-0 dot-pattern opacity-40 pointer-events-none" />
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(225,29,72,0.06)_0%,transparent_70%)] pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(5,150,105,0.06)_0%,transparent_70%)] pointer-events-none" />
 
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col lg:flex-row gap-16 lg:gap-20 items-center">
@@ -88,7 +88,7 @@ export default function ServiceDetails() {
               <div
                 className="relative rounded-[2.5rem] overflow-hidden shadow-premium border border-border/60 p-2.5 bg-white/60 backdrop-blur-xl animate-float"
                 style={{
-                  background: "linear-gradient(135deg, rgba(225,29,72,0.15), rgba(255,255,255,0.9), rgba(249,115,22,0.08))",
+                  background: "linear-gradient(135deg, rgba(5,150,105,0.15), rgba(255,255,255,0.9), rgba(13,148,136,0.08))",
                 }}
               >
                 <img

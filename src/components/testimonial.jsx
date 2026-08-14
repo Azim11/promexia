@@ -20,7 +20,7 @@ export default function TestimonialSection() {
   return (
     <section className="py-28 bg-gradient-surface relative overflow-hidden">
       <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(225,29,72,0.05)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(5,150,105,0.05)_0%,transparent_70%)] pointer-events-none" />
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-[radial-gradient(circle,rgba(217,119,6,0.04)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">
@@ -110,7 +110,7 @@ export default function TestimonialSection() {
 
         {/* Bottom CTA — light warm style */}
         <div className="mt-8 relative overflow-hidden rounded-3xl p-8 md:p-12 flex flex-col lg:flex-row items-center justify-between gap-8 bg-gradient-to-br from-primary/8 via-secondary/50 to-amber-50/60 border border-primary/15">
-          <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[radial-gradient(circle,rgba(225,29,72,0.10)_0%,transparent_70%)] pointer-events-none" />
+          <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[radial-gradient(circle,rgba(5,150,105,0.10)_0%,transparent_70%)] pointer-events-none" />
 
           <div className="relative z-10 text-center lg:text-left max-w-xl">
             <h3 className="text-2xl sm:text-3xl font-heading font-black text-foreground mb-2.5 leading-tight">

@@ -18,7 +18,7 @@ export default function ServicesSection() {
   return (
     <section className="py-28 relative overflow-hidden bg-background">
       <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(225,29,72,0.05)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(5,150,105,0.05)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">
 

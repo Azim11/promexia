@@ -8,7 +8,7 @@ export default function PricingSection() {
   return (
     <section className="py-28 relative overflow-hidden bg-white">
       <div className="section-divider absolute top-0 left-0 right-0" />
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(225,29,72,0.04)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(5,150,105,0.04)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">
 
@@ -41,8 +41,8 @@ export default function PricingSection() {
               style={
                 tier.isPopular
                   ? {
-                      background: "linear-gradient(155deg, #e11d48 0%, #f43f5e 60%, #fb7185 100%)",
-                      border: "1px solid rgba(225,29,72,0.3)",
+                      background: "linear-gradient(155deg, #059669 0%, #10b981 60%, #34d399 100%)",
+                      border: "1px solid rgba(5,150,105,0.3)",
                     }
                   : {
                       background: "#ffffff",

@@ -9,7 +9,7 @@ export default function NotFound() {
 
       {/* Background */}
       <div className="absolute inset-0 dot-pattern opacity-40 pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl h-[400px] bg-[radial-gradient(circle,rgba(225,29,72,0.06)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-2xl h-[400px] bg-[radial-gradient(circle,rgba(5,150,105,0.06)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="text-center max-w-xl mx-auto px-5 relative z-10 animate-reveal">
         {/* 404 display */}

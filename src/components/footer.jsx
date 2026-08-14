@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className="bg-surface border-t border-border pt-20 pb-10 overflow-hidden relative">
       {/* Subtle top gradient accent */}
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent" />
-      <div className="absolute top-0 right-0 w-[500px] h-[400px] bg-[radial-gradient(circle,rgba(225,29,72,0.04)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[500px] h-[400px] bg-[radial-gradient(circle,rgba(5,150,105,0.04)_0%,transparent_70%)] pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-[400px] h-[300px] bg-[radial-gradient(circle,rgba(217,119,6,0.03)_0%,transparent_70%)] pointer-events-none" />
 
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8 relative z-10">

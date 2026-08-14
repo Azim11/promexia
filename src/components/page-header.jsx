@@ -7,7 +7,7 @@ export default function PageHeader({ title, breadcrumb }) {
       {/* Background dot pattern */}
       <div className="absolute inset-0 dot-pattern opacity-50 pointer-events-none" />
       {/* Ambient glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[350px] bg-[radial-gradient(circle,rgba(225,29,72,0.07)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-[350px] bg-[radial-gradient(circle,rgba(5,150,105,0.07)_0%,transparent_70%)] pointer-events-none" />
       {/* Horizontal accent line */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
 

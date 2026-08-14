@@ -46,7 +46,7 @@ export default function FeaturedServicesDeep() {
                 <div
                   className="relative rounded-[2.5rem] p-1 shadow-premium"
                   style={{
-                    background: "linear-gradient(135deg, rgba(225,29,72,0.2), rgba(255,255,255,0.85), rgba(249,115,22,0.12))",
+                    background: "linear-gradient(135deg, rgba(5,150,105,0.2), rgba(255,255,255,0.85), rgba(13,148,136,0.12))",
                   }}
                 >
                   <div className="bg-white/80 backdrop-blur-xl rounded-[2.1rem] p-3 border border-white/90">
@@ -109,7 +109,7 @@ export default function FeaturedServicesDeep() {
 
                 <Link
                   to={`/services/${idx === 0 ? 1 : 2}`}
-                  className="group/btn inline-flex items-center gap-3 px-7 py-3.5 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow hover:shadow-[0_12px_35px_rgba(225,29,72,0.5)] hover:scale-[1.02] transition-all duration-300"
+                  className="group/btn inline-flex items-center gap-3 px-7 py-3.5 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow hover:shadow-[0_12px_35px_rgba(5,150,105,0.5)] hover:scale-[1.02] transition-all duration-300"
                 >
                   Learn more about {service.category}
                   <ArrowRight size={16} className="group-hover/btn:translate-x-0.5 transition-transform duration-200" />

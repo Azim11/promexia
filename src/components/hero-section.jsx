@@ -110,7 +110,7 @@ export default function HeroSection() {
             >
               <Link
                 to="/contact-us"
-                className="group w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow hover:shadow-[0_12px_35px_rgba(225,29,72,0.5)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+                className="group w-full sm:w-auto flex items-center justify-center gap-2.5 px-8 py-4 rounded-2xl font-bold text-sm text-white bg-primary shadow-glow hover:shadow-[0_12px_35px_rgba(5,150,105,0.5)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
               >
                 Launch Your Project
                 <ArrowRight size={16} className="group-hover:translate-x-0.5 transition-transform duration-200" />
@@ -167,7 +167,7 @@ export default function HeroSection() {
               <div
                 className="relative p-1 rounded-[2.5rem]"
                 style={{
-                  background: "linear-gradient(135deg, rgba(225,29,72,0.25), rgba(255,255,255,0.9), rgba(249,115,22,0.15))",
+                  background: "linear-gradient(135deg, rgba(5,150,105,0.25), rgba(255,255,255,0.9), rgba(13,148,136,0.15))",
                 }}
               >
                 <div className="bg-white/80 backdrop-blur-xl rounded-[2.2rem] p-3 border border-white/90 shadow-premium">
@@ -209,8 +209,8 @@ export default function HeroSection() {
                               height: `${h}%`,
                               background:
                                 i === 6
-                                  ? "linear-gradient(to top, #e11d48, #fb7185)"
-                                  : `rgba(225,29,72,${0.12 + i * 0.07})`,
+                                  ? "linear-gradient(to top, #059669, #34d399)"
+                                  : `rgba(5,150,105,${0.12 + i * 0.07})`,
                             }}
                           />
                         ))}
@@ -247,8 +247,8 @@ export default function HeroSection() {
                         height: `${h}%`,
                         background:
                           i === 6
-                            ? "#e11d48"
-                            : `rgba(225,29,72,${0.2 + i * 0.1})`,
+                            ? "#059669"
+                            : `rgba(5,150,105,${0.2 + i * 0.1})`,
                       }}
                     />
                   ))}

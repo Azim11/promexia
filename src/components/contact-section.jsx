@@ -69,8 +69,8 @@ export default function ContactSection() {
   return (
     <section id="contact-us" className="py-20 relative overflow-hidden bg-background">
       {/* Background radial highlights */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(225,29,72,0.06)_0%,transparent_70%)] pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(249,115,22,0.04)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(5,150,105,0.06)_0%,transparent_70%)] pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(13,148,136,0.04)_0%,transparent_70%)] pointer-events-none" />
 
       {/* Copy Toast Notification */}
       {copiedKey && (
