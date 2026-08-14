@@ -1,0 +1,6 @@
+name = "themarketingco"
+compatibility_date = "2026-07-27"
+
+[assets]
+directory = "./dist"
+html_handling = "force-trailing-slash"
