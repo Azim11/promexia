@@ -18,6 +18,7 @@ import {
   ShieldCheck,
   Zap,
   MessageCircle,
+  Home,
 } from "lucide-react";
 
 export default function ContactSection() {
@@ -217,6 +218,33 @@ export default function ContactSection() {
                 </button>
               </div>
 
+              {/* Contact Person Residential Address Card */}
+              {contactInfo.residentialAddressDetails && (
+                <div className="p-5 rounded-2xl bg-white border border-border shadow-soft hover:border-primary/30 transition-all duration-300 flex items-start justify-between group">
+                  <div className="flex items-start gap-4">
+                    <div className="w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 font-bold">
+                      <Home size={20} />
+                    </div>
+                    <div>
+                      <span className="text-[10px] font-black uppercase tracking-wider text-muted block">Contact Person Residential Address</span>
+                      <p className="text-xs sm:text-sm font-medium text-foreground leading-relaxed mt-0.5">
+                        {contactInfo.residentialAddressDetails.addressLine1}{contactInfo.residentialAddressDetails.addressLine2 ? `, ${contactInfo.residentialAddressDetails.addressLine2}` : ""}<br />
+                        {contactInfo.residentialAddressDetails.city} {contactInfo.residentialAddressDetails.postalCode}<br />
+                        {contactInfo.residentialAddressDetails.country}
+                      </p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => handleCopy(contactInfo.residentialAddress, "residentialAddress")}
+                    className="p-2.5 rounded-xl bg-surface border border-border text-muted hover:text-primary hover:bg-primary/5 transition-all cursor-pointer flex-shrink-0 mt-1"
+                    title="Copy Residential Address"
+                  >
+                    {copiedKey === "residentialAddress" ? <Check size={16} className="text-primary" /> : <Copy size={16} />}
+                  </button>
+                </div>
+              )}
+
               {/* Business Hours */}
               <div className="p-5 rounded-2xl bg-white border border-border shadow-soft flex items-center gap-4">
                 <div className="w-11 h-11 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center flex-shrink-0 font-bold">
@@ -360,7 +388,7 @@ export default function ContactSection() {
                           required
                           value={formData.firstName}
                           onChange={handleInputChange}
-                          placeholder="Nasima"
+                          placeholder="Talina"
                           className="w-full bg-surface border border-border rounded-xl px-4 py-3 text-sm font-semibold text-foreground placeholder:text-muted-foreground focus:outline-none focus:bg-white focus:border-primary/50 focus:ring-4 focus:ring-primary/5 transition-all"
                         />
                       </div>
@@ -373,7 +401,7 @@ export default function ContactSection() {
                           required
                           value={formData.lastName}
                           onChange={handleInputChange}
-                          placeholder="Begum"
+                          placeholder="Khatun"
                           className="w-full bg-surface border border-border rounded-xl px-4 py-3 text-sm font-semibold text-foreground placeholder:text-muted-foreground focus:outline-none focus:bg-white focus:border-primary/50 focus:ring-4 focus:ring-primary/5 transition-all"
                         />
                       </div>
@@ -400,7 +428,7 @@ export default function ContactSection() {
                           id="phone"
                           value={formData.phone}
                           onChange={handleInputChange}
-                          placeholder="+44 7915 940782"
+                          placeholder="+1 12262401769"
                           className="w-full bg-surface border border-border rounded-xl px-4 py-3 text-sm font-semibold text-foreground placeholder:text-muted-foreground focus:outline-none focus:bg-white focus:border-primary/50 focus:ring-4 focus:ring-primary/5 transition-all"
                         />
                       </div>

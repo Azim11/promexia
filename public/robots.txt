@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://marketingco.site/sitemap.xml
+Sitemap: https://westlineventures.site/sitemap.xml
