@@ -13,7 +13,7 @@ const contactInfo = {
     "Westline Digital Ventures LLC is a premier marketing and content creation agency empowering influencers, brands, and digital marketplaces with high-impact social media strategies and audience growth solutions.",
 
   email: "lokeshali4181181@outlook.com",
-  supportEmail: "lokeshali4181181@outlook.com",
+  supportEmail: "support@westlineventures.site",
   phone: "+1 12262401769",
 
   url: "https://westlineventures.site",
