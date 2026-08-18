@@ -1,62 +1,63 @@
 const contactInfo = {
-  companyName: "Westline Digital Ventures LLC",
-  companyNameShort: "Westline Digital Ventures LLC",
+  companyName: "Pab Marketing LLC",
+  companyNameShort: "Pab Marketing LLC",
 
   businessEntityType: "Limited liability company (LLC)",
 
-  contactPerson: "TALINA KHATUN",
+  contactPerson: "MD ANAMUL HAQUE",
   contactPersonRole: "Owner",
 
-  tagline: "Marketing, Social Media Influencer Strategy & Content Creation Solutions",
+  tagline: "IT Services & Business Consultancy Solutions",
 
   description:
-    "Westline Digital Ventures LLC is a premier marketing and content creation agency empowering influencers, brands, and digital marketplaces with high-impact social media strategies and audience growth solutions.",
+    "Pab Marketing LLC is a premier IT services and business consultancy firm delivering high-impact technology solutions, consultancy, and digital growth strategies for global marketplaces and enterprises.",
 
-  email: "lokeshali4181181@outlook.com",
-  supportEmail: "support@westlineventures.site",
-  phone: "+1 12262401769",
+  email: "kuldeepghosh3497497@outlook.com",
+  supportEmail: "kuldeepghosh3497497@outlook.com",
+  phone: "+1 12262545398",
 
-  url: "https://westlineventures.site",
-  industry: "Marketing / Marketing",
+  url: "https://pabmarketing.site",
+  industry: "IT services / Business and IT consultancy services",
   sourceOfMoney: "Marketplaces",
 
-  address: "2661 Alvarado Street, San Leandro, California 94577, United States of America",
+  address: "9852 Business Park Drive, Sacramento, California 95827, United States of America",
 
-  registeredAddress: "2661 Alvarado Street, San Leandro, California 94577, United States of America",
+  registeredAddress: "9852 Business Park Drive, Sacramento, California 95827, United States of America",
 
   addressDetails: {
-    addressLine1: "2661 Alvarado Street",
-    city: "San Leandro",
+    addressLine1: "9852 Business Park Drive",
+    city: "Sacramento",
     state: "California",
-    postalCode: "94577",
+    postalCode: "95827",
     country: "United States of America",
   },
 
   registeredAddressDetails: {
-    addressLine1: "2661 Alvarado Street",
-    city: "San Leandro",
+    addressLine1: "9852 Business Park Drive",
+    city: "Sacramento",
     state: "California",
-    postalCode: "94577",
+    postalCode: "95827",
     country: "United States of America",
   },
 
-  residentialAddress: "House 11, Road 18, Dhanmondi, Dhaka 1209, Bangladesh",
+  residentialAddress: "House 22, Road 12, Bashundhara, Dhaka 1229, Bangladesh",
   residentialAddressDetails: {
-    addressLine1: "House 11, Road 18",
-    addressLine2: "Dhanmondi",
+    addressLine1: "House 22, Road 12",
+    addressLine2: "Bashundhara",
     city: "Dhaka",
-    postalCode: "1209",
+    postalCode: "1229",
     country: "Bangladesh",
   },
 
   businessHours: "Mon–Fri: 9:00 AM – 6:00 PM PST",
 
   location:
-    "https://www.google.com/maps?q=2661+Alvarado+Street+San+Leandro+CA+94577&output=embed",
+    "https://www.google.com/maps?q=9852+Business+Park+Drive+Sacramento+CA+95827&output=embed",
 
   social: {
-    telegram: "https://t.me/westlinedigital",
-    whatsapp: "https://whatsapp.com/channel/0029VbDaT2E6RGJP2NRORo1Q",
+    facebook: "https://www.facebook.com/profile.php?id=61592993113907&mibextid=ZbWKwL",
+    telegram: "https://t.me/pabmarketing",
+    whatsapp: "https://wa.me/112262545398",
   },
 };
 

@@ -42,7 +42,7 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 flex-shrink-0 ">
               <img
-                src="/logo.png"
+                src="/logo.jpeg"
                 alt={data.company.name}
                 className="h-10 md:h-12 w-auto object-contain rounded-lg"
               />
