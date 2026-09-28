@@ -383,7 +383,7 @@ export const data = {
         id: 4,
         title: "Call us",
         value: contactInfo.phone,
-        subtext: "Mon-Fri from 9am to 6pm PST",
+        subtext: "Mon-Fri from 9am to 6pm EST",
         icon: Phone,
         link: `tel:${contactInfo.phone}`,
       },

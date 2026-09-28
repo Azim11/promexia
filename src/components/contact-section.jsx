@@ -117,10 +117,17 @@ export default function ContactSection() {
               <h3 className="text-2xl font-heading font-black text-foreground mb-2">
                 {contactInfo.companyName}
               </h3>
-              <div className="space-y-1 text-xs text-muted font-semibold">
+              <div className="space-y-1.5 text-xs text-muted font-semibold">
                 <p><strong className="text-foreground">Line of Business:</strong> {contactInfo.industry}</p>
                 <p><strong className="text-foreground">Monetization:</strong> {contactInfo.sourceOfMoney}</p>
-                <p><strong className="text-foreground">URL:</strong> <a href={contactInfo.url.startsWith('http') ? contactInfo.url : `https://${contactInfo.url}`} target="_blank" rel="noreferrer" className="text-primary hover:underline">{contactInfo.url}</a></p>
+                <p><strong className="text-foreground">URL:</strong> {contactInfo.url && (contactInfo.url.startsWith('http') || contactInfo.url.includes('.')) ? (
+                  <a href={contactInfo.url.startsWith('http') ? contactInfo.url : `https://${contactInfo.url}`} target="_blank" rel="noreferrer" className="text-primary hover:underline">{contactInfo.url}</a>
+                ) : (
+                  <span className="text-muted italic">{contactInfo.url}</span>
+                )}</p>
+                {contactInfo.beneficiaryName && (
+                  <p><strong className="text-foreground">Beneficiary Name:</strong> {contactInfo.beneficiaryName}</p>
+                )}
               </div>
             </div>
 
@@ -428,7 +435,7 @@ export default function ContactSection() {
                           id="phone"
                           value={formData.phone}
                           onChange={handleInputChange}
-                          placeholder="+1 12262401769"
+                          placeholder="+1 2089002291"
                           className="w-full bg-surface border border-border rounded-xl px-4 py-3 text-sm font-semibold text-foreground placeholder:text-muted-foreground focus:outline-none focus:bg-white focus:border-primary/50 focus:ring-4 focus:ring-primary/5 transition-all"
                         />
                       </div>

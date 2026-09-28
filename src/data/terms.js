@@ -105,7 +105,7 @@ export const termsData = {
       id: "9",
       title: "9. Governing Law",
       content:
-        "These terms are governed by the laws of the State of California, United States. Any legal action must be brought in the courts of California.",
+        "These terms are governed by the laws of the State of Florida, United States. Any legal action must be brought in the courts of Florida.",
     },
   ],
   contact: {

@@ -20,7 +20,11 @@ export default function SEO({ title, description, path }) {
     }
 
     // Set Canonical Link
-    const baseUrl = contactInfo.url.endsWith('/') ? contactInfo.url.slice(0, -1) : contactInfo.url;
+    const isHttpUrl = contactInfo.url && (contactInfo.url.startsWith('http://') || contactInfo.url.startsWith('https://'));
+    const origin = typeof window !== 'undefined' ? window.location.origin : '';
+    const baseUrl = isHttpUrl 
+      ? (contactInfo.url.endsWith('/') ? contactInfo.url.slice(0, -1) : contactInfo.url)
+      : origin;
     const fullUrl = `${baseUrl}${path || ''}`;
     let canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink) {

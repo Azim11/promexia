@@ -1,63 +1,64 @@
 const contactInfo = {
-  companyName: "Pab Marketing LLC",
-  companyNameShort: "Pab Marketing LLC",
+  companyName: "PROMEXIA LLC",
+  companyNameShort: "PROMEXIA LLC",
 
   businessEntityType: "Limited liability company (LLC)",
 
-  contactPerson: "MD ANAMUL HAQUE",
-  contactPersonRole: "Owner",
+  contactPerson: "AK LIMA",
+  contactPersonRole: "Owner & Managing Member",
+  beneficiaryName: "AK LIMA",
 
-  tagline: "IT Services & Business Consultancy Solutions",
+  tagline: "Performance Digital Marketing & Growth Solutions",
 
   description:
-    "Pab Marketing LLC is a premier IT services and business consultancy firm delivering high-impact technology solutions, consultancy, and digital growth strategies for global marketplaces and enterprises.",
+    "PROMEXIA LLC is a premier digital marketing agency and growth consultancy delivering search engine optimization, paid media strategy, and conversion optimization for marketplaces, partner businesses, and direct clients.",
 
-  email: "kuldeepghosh3497497@outlook.com",
-  supportEmail: "kuldeepghosh3497497@outlook.com",
-  phone: "+1 12262545398",
+  email: "JeramieNov791039@outlook.com",
+  supportEmail: "JeramieNov791039@outlook.com",
+  phone: "+1 2089002291",
 
-  url: "https://pabmarketing.site",
-  industry: "IT services / Business and IT consultancy services",
-  sourceOfMoney: "Marketplaces",
+  url: "My business cannot be found online",
+  industry: "Marketing / Marketing",
+  sourceOfMoney: "Marketplaces, Businesses I work with, Direct Customers",
 
-  address: "9852 Business Park Drive, Sacramento, California 95827, United States of America",
+  address: "400 SAVAGE COURT, LONGWOOD, Florida 32750, United States of America",
 
-  registeredAddress: "9852 Business Park Drive, Sacramento, California 95827, United States of America",
+  registeredAddress: "400 SAVAGE COURT, LONGWOOD, Florida 32750, United States of America",
 
   addressDetails: {
-    addressLine1: "9852 Business Park Drive",
-    city: "Sacramento",
-    state: "California",
-    postalCode: "95827",
+    addressLine1: "400 SAVAGE COURT",
+    city: "LONGWOOD",
+    state: "Florida",
+    postalCode: "32750",
     country: "United States of America",
   },
 
   registeredAddressDetails: {
-    addressLine1: "9852 Business Park Drive",
-    city: "Sacramento",
-    state: "California",
-    postalCode: "95827",
+    addressLine1: "400 SAVAGE COURT",
+    city: "LONGWOOD",
+    state: "Florida",
+    postalCode: "32750",
     country: "United States of America",
   },
 
-  residentialAddress: "House 22, Road 12, Bashundhara, Dhaka 1229, Bangladesh",
+  residentialAddress: "400 SAVAGE COURT, LONGWOOD, Florida 32750, United States of America",
   residentialAddressDetails: {
-    addressLine1: "House 22, Road 12",
-    addressLine2: "Bashundhara",
-    city: "Dhaka",
-    postalCode: "1229",
-    country: "Bangladesh",
+    addressLine1: "400 SAVAGE COURT",
+    city: "LONGWOOD",
+    state: "Florida",
+    postalCode: "32750",
+    country: "United States of America",
   },
 
-  businessHours: "Mon–Fri: 9:00 AM – 6:00 PM PST",
+  businessHours: "Mon–Fri: 9:00 AM – 6:00 PM EST",
 
   location:
-    "https://www.google.com/maps?q=9852+Business+Park+Drive+Sacramento+CA+95827&output=embed",
+    "https://www.google.com/maps?q=400+SAVAGE+COURT+LONGWOOD+FL+32750&output=embed",
 
   social: {
-    facebook: "https://www.facebook.com/profile.php?id=61592993113907&mibextid=ZbWKwL",
-    telegram: "https://t.me/pabmarketing",
-    whatsapp: "https://wa.me/112262545398",
+    facebook: "",
+    telegram: "",
+    whatsapp: "https://wa.me/12089002291",
   },
 };
 
