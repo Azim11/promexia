@@ -14,10 +14,10 @@ const contactInfo = {
     "PROMEXIA LLC is a premier digital marketing agency and growth consultancy delivering search engine optimization, paid media strategy, and conversion optimization for marketplaces, partner businesses, and direct clients.",
 
   email: "JeramieNov791039@outlook.com",
-  supportEmail: "JeramieNov791039@outlook.com",
+  supportEmail: "support@promexia.site",
   phone: "+1 2089002291",
 
-  url: "My business cannot be found online",
+  url: "https://promexia.site",
   industry: "Marketing / Marketing",
   sourceOfMoney: "Marketplaces, Businesses I work with, Direct Customers",
 

@@ -168,11 +168,39 @@ export default function ContactSection() {
                   type="button"
                   onClick={() => handleCopy(contactInfo.email, "email")}
                   className="p-2.5 rounded-xl bg-surface border border-border text-muted hover:text-primary hover:bg-primary/5 transition-all cursor-pointer flex-shrink-0"
-                  title="Copy Email"
+                  title="Copy Direct Email"
                 >
                   {copiedKey === "email" ? <Check size={16} className="text-primary" /> : <Copy size={16} />}
                 </button>
               </div>
+
+              {/* Support Email Card with Copy */}
+              {contactInfo.supportEmail && contactInfo.supportEmail !== contactInfo.email && (
+                <div className="p-5 rounded-2xl bg-white border border-border shadow-soft hover:border-primary/30 transition-all duration-300 flex items-center justify-between group">
+                  <div className="flex items-center gap-4 min-w-0 pr-2">
+                    <div className="w-11 h-11 rounded-xl bg-primary/10 text-primary flex items-center justify-center flex-shrink-0 font-bold">
+                      <Mail size={20} />
+                    </div>
+                    <div className="min-w-0">
+                      <span className="text-[10px] font-black uppercase tracking-wider text-muted block">Support Email</span>
+                      <a
+                        href={`mailto:${contactInfo.supportEmail}`}
+                        className="text-sm font-bold text-foreground hover:text-primary transition-colors block truncate break-all"
+                      >
+                        {contactInfo.supportEmail}
+                      </a>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => handleCopy(contactInfo.supportEmail, "supportEmail")}
+                    className="p-2.5 rounded-xl bg-surface border border-border text-muted hover:text-primary hover:bg-primary/5 transition-all cursor-pointer flex-shrink-0"
+                    title="Copy Support Email"
+                  >
+                    {copiedKey === "supportEmail" ? <Check size={16} className="text-primary" /> : <Copy size={16} />}
+                  </button>
+                </div>
+              )}
 
               {/* Phone Card with Copy */}
               <div className="p-5 rounded-2xl bg-white border border-border shadow-soft hover:border-primary/30 transition-all duration-300 flex items-center justify-between group">
