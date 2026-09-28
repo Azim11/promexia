@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col gap-5">
-            {/* Social icons */}
+            {/* Social icons - commented out
             <div className="flex items-center gap-3">
               <span className="text-xs font-black uppercase tracking-widest text-muted mr-1">Follow us</span>
               {contactInfo.social?.telegram && (
@@ -57,6 +57,7 @@ export default function Footer() {
                 </a>
               )}
             </div>
+            */}
 
             {/* Payment icons */}
             <div>
